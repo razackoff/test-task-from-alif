@@ -53,7 +53,7 @@ namespace test_task_from_alif.Sevices
 				{
 					return 5;
 				}
-				return 5;
+				return 0;
 			}
 			return 0;
 		}
