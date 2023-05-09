@@ -7,14 +7,7 @@
     <RootNamespace>test_task_from_alif</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Sevices\**" />
-    <Content Remove="Sevices\**" />
-    <EmbeddedResource Remove="Sevices\**" />
-    <None Remove="Sevices\**" />
-  </ItemGroup>
-
-  <ItemGroup>
+   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
