@@ -7,6 +7,5 @@
 		public string ProductName { get; set; }
 		public int InstallmentRange { get; set; }
 		public decimal ProductCost { get; set; }
-		public decimal Summa { get; set; }
 	}
 }
